@@ -1,0 +1,156 @@
+.Nav
+{
+    background-color: rgb(199, 200, 195);
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Nav h1
+{
+    font-size: 15px;
+}
+
+.navi_1
+{
+    margin-left: 75%;
+}
+.part1
+{
+   width:50%;
+   height:200px;
+  margin:10px;
+  position:flex;
+}
+.Register_form
+{
+    background: linear-gradient(45deg, dodgerblue, white, purple);
+    width: 30vw;
+    padding: 30px;
+    margin: auto;
+    display: none;
+    margin-top: 10%;
+    border-radius: 10PX;
+}
+.body{
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/f9de6eb5-611b-4737-8688-f0296b643f95/d2ga4cw-d1026c1c-15fa-4c28-8dbe-c8a46c301277.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.Login_form
+{
+    background: linear-gradient(45deg, dodgerblue, white, purple);
+    width: 30vw;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.update_form
+{
+    position: absolute;
+    display:flex;
+    width:60vw;
+    height:70vh;
+    left: 25%;
+    margin-top: 5%;
+}
+.mb-3
+{
+    width:100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+label
+{
+    font-size: 15px;
+}
+
+/* .profile_div
+{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/f9de6eb5-611b-4737-8688-f0296b643f95/d2ga4cw-d1026c1c-15fa-4c28-8dbe-c8a46c301277.jpg
+} */
+.profile_body
+{
+    background-image: url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+    background-position: absolute;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn
+{
+  width: 2cm;
+    height: 1cm;
+
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+.btn::before
+{
+    content: '';
+    width: 0;
+    height: 1cm;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #f5f9fa 0%, #11110d 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.btn:hover::before
+{
+    width: 3cm;
+}
+
+#profile-im
+{
+    border-radius: 35px;
+}
+.profile_div
+{
+    margin-left: 10px;
+}
+
+.Login_form::before
+{
+    content: '';
+    position: absolute;
+    inset: 0;
+    transform: rotate(-5deg);
+    z-index: -1;
+    background: grey;
+}
+
+.logo
+{
+    position: absolute;
+    height: auto;
+    left: 0px;
+    width: 74px;
+}
+
